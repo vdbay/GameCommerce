@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+</head>
+
+<body class="bg-dark text-light">
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <nav class="
+        navbar navbar-expand-lg navbar-dark
+        bg-dark
+        border-bottom border-primary
+        sticky-top
+      ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="/src/images/VDBayLightLogo.png" alt="" height="50" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Mobile Legends</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PUBG Mobile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Free Fire</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">WEBSITE GAME-COMMERCE TERMURAH NO.1 DI INDONESIA
+          </span>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 p-5 d-flex flex-column">
+                <div></div>
+                <img src="/src/images/banner.jpg" alt="" class="img-fluid rounded" />
+                <p class="fs-4 fw-bolder">Mobile Legends</p>
+                <p>
+                    Bergabunglah bersama teman dan kerabat dalam pertarungan MOBA 5v5, Mobile Legends! Pilih hero favoritmu dan bangunlah tim yang terkuat bersama temanmu! 10 detik match-making, 10 menit pertarungan. Laning, jungling, tower rushing, team war, semua keseruan
+                    MOBA PC dan action play terbaik kini ada di tanganmu! Penuhi semangat eSports-mu!
+                </p>
+            </div>
+            <div class="col-sm-8 p-5">
+                <div class="card mb-3">
+                    <div class="card-header bg-dark">1. Masukkan ID, Server, dan Username</div>
+                    <div class="card-body bg-dark">
+                        <div class="mb-3">
+                            <label for="inputID" class="form-label">User ID</label>
+                            <input type="text" placeholder="Masukkan User ID" name="inputID" id="inputID" class="form-control" oninput="this.value=this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" required />
+                            <label for="inputServer" class="form-label">Server Zone</label>
+                            <input type="text" placeholder="Masukkan Server Zone" name="inputServer" id="inputServer" class="form-control" oninput="this.value=this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" required />
+                            <div id="IDServerHelp" class="form-text">
+                                Untuk mengetahui User ID Anda, silakan klik menu profile dibagian kiri atas pada menu utama game. User ID akan terlihat dibagian bawah Nama Karakter Game Anda. Silakan masukkan User ID Anda untuk menyelesaikan transaksi. Contoh : 12345678(1234).
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-header bg-dark">2. Pilih Nominal Top Up - Rp.
+                        <span id="harga">0</span>
+                    </div>
+                    <div class="card-body bg-dark">
+                        <input type="radio" class="btn-check" name="denomML" id="denomML1" autocomplete="off" value="21000">
+                        <label class="btn btn-outline-light m-1" for="denomML1">86</label>
+
+                        <input type="radio" class="btn-check" name="denomML" id="denomML2" autocomplete="off" value="42000" />
+                        <label class="btn btn-outline-light m-1" for="denomML2">172</label>
+
+                        <input type="radio" class="btn-check" name="denomML" id="denomML3" autocomplete="off" value="63000" />
+                        <label class="btn btn-outline-light m-1" for="denomML3">257</label>
+
+                        <input type="radio" class="btn-check" name="denomML" id="denomML4" autocomplete="off" value="168000" />
+                        <label class="btn btn-outline-light m-1" for="denomML4">706</label>
+
+                        <input type="radio" class="btn-check" name="denomML" id="denomML5" autocomplete="off" value="499000" />
+                        <label class="btn btn-outline-light m-1" for="denomML5">2195</label>
+
+                        <input type="radio" class="btn-check" name="denomML" id="denomML6" autocomplete="off" value="831000" />
+                        <label class="btn btn-outline-light m-1" for="denomML6">3688</label>
+
+                        <input type="radio" class="btn-check" name="denomML" id="denomML7" autocomplete="off" value="1248000" />
+                        <label class="btn btn-outline-light m-1" for="denomML7">5532</label>
+
+                        <input type="radio" class="btn-check" name="denomML" id="denomML8" autocomplete="off" value="2079000" />
+                        <label class="btn btn-outline-light m-1" for="denomML8">9288</label>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header bg-dark">3. Beli!</div>
+                    <div class="card-body bg-dark">
+                        <label for="inputSisaDM" class="form-label">Sisa Diamond Di Akun</label>
+                        <input type="text" name="inputServer" id="inputServer" class="form-control" placeholder="Masukkan Sisa Diamond" oninput="this.value=this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" required />
+                        <div id="sisaDMHelp" class="form-text">
+                            Untuk mengetahui sisa diamond Anda, ada pada bagian kanan atas menu utama game. Sisa diamond akan terlihat dibagian kanan Battle Points. Silakan masukkan sisa diamond Anda untuk menyelesaikan transaksi. Contoh : 1034 DM.
+                        </div>
+                        <br>
+                        <button id="beli" type="button" class="btn btn-success">BELI SEKARANG !</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-muted">&copy; 2021 VDBay Store</p>
+
+            <img src="/src/images/VDBayLightLogo.png" alt="" height="24">
+
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Mobile Legends</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">PUBG Mobile</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Free Fire</a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="/src/scripts/index.js"></script>
+</body>
+
+</html>
