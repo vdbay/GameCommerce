@@ -72,34 +72,37 @@
                         <span id="harga">0</span>
                     </div>
                     <div class="card-body bg-dark">
-                        <input type="radio" class="btn-check" name="denomML" id="denomML1" autocomplete="off" value="21000">
-                        <label class="btn btn-outline-light m-1" for="denomML1">86</label>
+                        <input type="radio" class="btn-check" name="denom" id="denom1" autocomplete="off" value="21000" checked>
+                        <label class="btn btn-outline-light m-1" for="denom1">86</label>
 
-                        <input type="radio" class="btn-check" name="denomML" id="denomML2" autocomplete="off" value="42000" />
-                        <label class="btn btn-outline-light m-1" for="denomML2">172</label>
+                        <input type="radio" class="btn-check" name="denom" id="denom2" autocomplete="off" value="42000" />
+                        <label class="btn btn-outline-light m-1" for="denom2">172</label>
 
-                        <input type="radio" class="btn-check" name="denomML" id="denomML3" autocomplete="off" value="63000" />
-                        <label class="btn btn-outline-light m-1" for="denomML3">257</label>
+                        <input type="radio" class="btn-check" name="denom" id="denom3" autocomplete="off" value="63000" />
+                        <label class="btn btn-outline-light m-1" for="denom3">257</label>
 
-                        <input type="radio" class="btn-check" name="denomML" id="denomML4" autocomplete="off" value="168000" />
-                        <label class="btn btn-outline-light m-1" for="denomML4">706</label>
+                        <input type="radio" class="btn-check" name="denom" id="denom4" autocomplete="off" value="168000" />
+                        <label class="btn btn-outline-light m-1" for="denom4">706</label>
 
-                        <input type="radio" class="btn-check" name="denomML" id="denomML5" autocomplete="off" value="499000" />
-                        <label class="btn btn-outline-light m-1" for="denomML5">2195</label>
+                        <input type="radio" class="btn-check" name="denom" id="denom5" autocomplete="off" value="499000" />
+                        <label class="btn btn-outline-light m-1" for="denom5">2195</label>
 
-                        <input type="radio" class="btn-check" name="denomML" id="denomML6" autocomplete="off" value="831000" />
-                        <label class="btn btn-outline-light m-1" for="denomML6">3688</label>
+                        <input type="radio" class="btn-check" name="denom" id="denom6" autocomplete="off" value="831000" />
+                        <label class="btn btn-outline-light m-1" for="denom6">3688</label>
 
-                        <input type="radio" class="btn-check" name="denomML" id="denomML7" autocomplete="off" value="1248000" />
-                        <label class="btn btn-outline-light m-1" for="denomML7">5532</label>
+                        <input type="radio" class="btn-check" name="denom" id="denom7" autocomplete="off" value="1248000" />
+                        <label class="btn btn-outline-light m-1" for="denom7">5532</label>
 
-                        <input type="radio" class="btn-check" name="denomML" id="denomML8" autocomplete="off" value="2079000" />
-                        <label class="btn btn-outline-light m-1" for="denomML8">9288</label>
+                        <input type="radio" class="btn-check" name="denom" id="denom8" autocomplete="off" value="2079000" />
+                        <label class="btn btn-outline-light m-1" for="denom8">9288</label>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-header bg-dark">3. Beli!</div>
                     <div class="card-body bg-dark">
+                        <label for="inputNick" class="form-label">Nickname Akun</label>
+                        <input type="text" name="inputNick" id="inputNick" class="form-control" placeholder="Masukkan Nickname/Username Akun" required />
+
                         <label for="inputSisaDM" class="form-label">Sisa Diamond Di Akun</label>
                         <input type="text" name="inputServer" id="inputServer" class="form-control" placeholder="Masukkan Sisa Diamond" oninput="this.value=this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" required />
                         <div id="sisaDMHelp" class="form-text">
